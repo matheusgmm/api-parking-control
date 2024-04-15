@@ -22,7 +22,7 @@ public class ParkingSpotDto {
     private String colorCar;
 
     @NotBlank
-    private String reponsibleName;
+    private String responsibleName;
 
     @NotBlank
     private String apartment;
@@ -71,12 +71,12 @@ public class ParkingSpotDto {
         this.colorCar = colorCar;
     }
 
-    public String getReponsibleName() {
-        return reponsibleName;
+    public String getResponsibleName() {
+        return responsibleName;
     }
 
-    public void setReponsibleName(String reponsibleName) {
-        this.reponsibleName = reponsibleName;
+    public void setResponsibleName(String responsibleName) {
+        this.responsibleName = responsibleName;
     }
 
     public String getApartment() {
